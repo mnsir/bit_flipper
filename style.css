@@ -1,0 +1,48 @@
+BODY {
+    background-color: lightgray;
+    font-family: MS Shell Dlg;
+    font-size: 8pt;
+}
+
+.d-table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    position: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.d-tr {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1px, auto;
+    padding: 0px;
+}
+
+.d-td {
+    display: inline-block;
+    text-align: center;
+    width: 5%;
+    font-size: 120%;
+    border: 1px solid #f00;
+    margin: 0;
+}
+
+#cb {
+}
+
+.TableLine {
+    width: 100%;
+}
+
+.Field {
+    text-align: center;
+    vertical-align: central;
+}
+
+.AnyButton {
+    width: 20%;
+}
